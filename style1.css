@@ -1,0 +1,66 @@
+#header{
+	background-color: black;
+	color: lightgreen;
+}
+
+/* user side css*/
+#userchoice{
+	border: 5px solid black;
+	height: 400px;
+}
+#usercol{
+	border: 1px solid black;
+	height: 300px;
+}
+#choice{
+	border: 1px solid black;
+	height: 100px;
+}
+
+#choice > button {
+	display: inline-flex;
+	flex-wrap: wrap;
+	border-radius: 50%;
+	background-color: red;
+	color: white;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+}
+
+/* scoreboard css*/
+
+#scoreboard{
+	border: 5px solid black;
+	height: 400px;
+}
+
+/* computer side css*/
+
+#computerchoice{
+	border: 5px solid black;
+	height: 400px;
+}
+
+/* commentary section */
+#commentary{
+	border:5px solid black;
+	height: 90px;
+  text-align:center;
+}
+
+/* achievement */
+
+#achievement{
+	color: lightgreen;
+	animation: change 1s linear infinite;
+	text-align: center;
+	position: absolute;
+	top: 5px;
+	left: 40%;
+}
+
+@keyframes change{
+	0%{color: lightgreen;}
+	100%{color: orangered;}
+}
